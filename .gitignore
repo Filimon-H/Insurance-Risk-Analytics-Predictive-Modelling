@@ -2,4 +2,8 @@
 
 venv/
 
-data
+
+# Ignore all actual data files in the folder
+data/*
+# But allow .dvc tracking files
+!data/*.dvc
